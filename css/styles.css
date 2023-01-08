@@ -30,9 +30,10 @@ a {
   z-index: -2;
 }
 .background__round {
-  background-image: url(../img/bg-round.png);
+  background-image: url(../img/bg-round.svg);
   position: absolute;
-  top: -588px;
+  top: -357px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
