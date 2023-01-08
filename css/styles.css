@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
   color: #fff;
-  font-family: "Anek Latin";
+  font-family: "Anek Latin", sans-serif;
 }
 
 ul {
@@ -13,6 +14,12 @@ ul {
 
 a {
   text-decoration: none;
+  color: #fff;
+}
+
+.center {
+  margin-left: 10.9%;
+  margin-right: 10.9%;
 }
 
 .background {
@@ -36,7 +43,7 @@ a {
 .header {
   position: relative;
   z-index: 2;
-  margin: 0 53px;
+  margin: 0 3.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +63,7 @@ a {
   font-size: 24px;
   line-height: 29px;
   border-bottom: 3px solid #fff;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
 }
 
 .nav__list {
@@ -65,7 +72,10 @@ a {
 }
 
 .main__face {
-  margin: 166px 190px 0 165px;
+  margin-top: 166px;
+}
+.main__category {
+  margin-top: 142px;
 }
 
 .face {
@@ -77,15 +87,6 @@ a {
   height: 200px;
   margin-bottom: 45px;
 }
-.face__h1 {
-  margin-bottom: 45px;
-  font-weight: 169;
-  font-size: 240px;
-  line-height: 264px;
-  display: flex;
-  font-stretch: ultra-condensed;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .face__p {
   width: 618px;
   height: 234px;
@@ -94,4 +95,91 @@ a {
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.015em;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category__h2 {
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 55px;
+  margin-bottom: 106px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.product__style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-right: 2.25%;
+}
+.product__style-icon {
+  width: 150px;
+  height: 150px;
+}
+.product__style-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  width: 225px;
+  text-align: center;
+}
+.product__price {
+  margin-right: 4.56%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: "Inter", sans-serif;
+}
+.product__price-num {
+  width: 210px;
+}
+.product__price-sub {
+  margin-top: -8px;
+  width: 204px;
+  text-align: center;
+  font-size: 18px;
+}
+.product__description {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  width: 636px;
+  margin-top: 36px;
+}
+.product__description-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.015em;
+}
+.product__description-button {
+  color: #C94615;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 8px 14px 7px 15px;
+  border: 2px solid #C94615;
+  border-radius: 100px;
+  width: 176px;
+  background-color: transparent;
+  align-self: flex-end;
+  transition: all 0.3s;
+  font-family: "Anek Latin", sans-serif;
+}
+.product__description-button:hover {
+  color: black;
+  border: 2px solid black;
+  background-color: #C94615;
 }/*# sourceMappingURL=styles.css.map */
