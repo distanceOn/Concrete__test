@@ -107,6 +107,7 @@ a {
   font-size: 50px;
   line-height: 55px;
   margin-bottom: 106px;
+  margin-right: 50%;
 }
 
 .product {
@@ -182,4 +183,96 @@ a {
   color: black;
   border: 2px solid black;
   background-color: #C94615;
+}
+
+.footer {
+  margin-top: 213px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.footer__a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer__nav {
+  align-self: center;
+}
+
+.contacts {
+  display: flex;
+  margin-bottom: 220px;
+}
+.contacts__text {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  margin-right: 16.7%;
+}
+.contacts__p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.015em;
+  width: 636px;
+}
+.contacts__connect {
+  display: flex;
+  gap: 114px;
+}
+.contacts__first {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contacts__first-way {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+}
+.contacts__first-number {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.contacts__second {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contacts__second-way {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+}
+.contacts__second-mail {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.contacts__go {
+  width: 200px;
+  height: 200px;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgb(201, 70, 21), rgb(255, 255, 255) 88%);
+  color: #fff;
+  border-color: #C94615;
+  transition: all 0.3s;
+}
+.contacts__go:hover {
+  color: #C94615;
+  scale: 1.1;
+}
+
+@media (min-width: 1700px) {
+  .header {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .center {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }/*# sourceMappingURL=styles.css.map */
